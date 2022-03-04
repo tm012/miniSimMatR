@@ -1,0 +1,12 @@
+﻿This has been tested for driving data
+
+
+
+
+install.packages("devtools")
+library(devtools)
+install_github("tm012/miniSimMatR")
+library(miniSimMatR)
+
+
+data <- miniSimMatR("output.mat") # put your mat file’s location/path
