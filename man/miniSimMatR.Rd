@@ -8,7 +8,7 @@ miniSimMatR
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 
-The package will read mat file generated in nDaqTools by NADSMiniSim in R. It will read the driving data only.
+The package will read mat file generated in nDaqTools by NADS MiniSim in R. It was devloped for reading the driving data.
 }
 \usage{
 miniSimMatR(x)
@@ -23,7 +23,7 @@ dataframe <- miniSimMatR(x)
 \arguments{
   \item{x}{
 %%     ~~Describe \code{x} here~~
-  = path of the mat file
+  location/path of the mat file
 }
 }
 \details{
@@ -52,6 +52,8 @@ tmamun@mtu.edu
 
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
+https://www.screencast.com/t/iE7lcgwPH
+https://github.com/tm012/miniSimMatR
 }
 \examples{
 
