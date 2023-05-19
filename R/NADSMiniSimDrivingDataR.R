@@ -1,4 +1,5 @@
 miniSimMatR <- function(path) {
+  install.packages("R.matlab")
   library(R.matlab)
   cross_dsads <- readMat(path) #add your mat file
 
