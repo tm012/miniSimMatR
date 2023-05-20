@@ -2,7 +2,7 @@
 
 
 
-
+install.packages("R.matlab")
 install.packages("devtools")
 library(devtools)
 install_github("tm012/miniSimMatR")
